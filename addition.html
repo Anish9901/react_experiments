@@ -29,8 +29,8 @@
             function App() {
 
                 const [state, setState] = React.useState({
-                    num1: 2,
-                    num2: 3,
+                    num1: Math.ceil(Math.random() * 10),
+                    num2: Math.ceil(Math.random() * 10),
                     response: "",
                     score: 0,
                     incorrect: false
